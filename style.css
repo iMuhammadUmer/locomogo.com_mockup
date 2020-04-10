@@ -7,6 +7,7 @@
   --headerBoxShadow: rgba(0, 0, 0, 0.1);
   --grey: #252830;
   --red: #f15a52;
+  --green: #3abf73;
 }
 header {
   height: 86px;
@@ -43,8 +44,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 5.5em;
   background-image: url(images/blocks-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,4 +83,21 @@ button {
 #preOrder {
   width: 200px;
   height: 38px;
+}
+.motto {
+  width: 100%;
+  height: 132px;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+p {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+#italic {
+  font-style: italic;
 }
