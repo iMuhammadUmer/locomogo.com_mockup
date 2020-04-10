@@ -35,3 +35,15 @@ header .content {
   width: 400px;
   height: 60px;
 }
+main {
+  height: 530px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 5.5em;
+  background-image: url(images/blocks-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
