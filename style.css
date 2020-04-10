@@ -130,3 +130,11 @@ p {
   background-color: var(--blue);
   color: white;
 }
+.toyTrain {
+  height: 590px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #fafafa;
+}
