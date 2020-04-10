@@ -5,6 +5,8 @@
 }
 :root {
   --headerBoxShadow: rgba(0, 0, 0, 0.1);
+  --grey: #252830;
+  --red: #f15a52;
 }
 header {
   height: 86px;
@@ -46,4 +48,40 @@ main {
   background-image: url(images/blocks-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+main .content {
+  height: 470px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: var(--grey);
+}
+main h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 96px;
+}
+main p {
+  width: 373px;
+  height: 78px;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--red);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+#preOrder {
+  width: 200px;
+  height: 38px;
 }
