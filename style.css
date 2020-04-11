@@ -223,6 +223,46 @@ p {
   color: white;
   background-color: var(--blue);
 }
-#trainImg{
+#trainImg {
   max-width: 100%;
+}
+.testimonials {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialsRow {
+  height: 165px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonialsCol {
+  width: 47%;
+  height: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonialsCol img {
+  height: 140px;
+  width: 140px;
+}
+.testimonialImgBg {
+  height: 165px;
+  width: 165px;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialsCol .content {
+  width: 350px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
