@@ -9,6 +9,7 @@
   --red: #f15a52;
   --green: #3abf73;
   --blue: #395ebc;
+  --white: #fafafa;
 }
 header {
   height: 86px;
@@ -85,7 +86,7 @@ main a {
   text-decoration: none;
   color: white;
 }
-#preOrder {
+#btnPreOrder {
   width: 200px;
   height: 38px;
 }
@@ -135,6 +136,57 @@ p {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-direction: column;
-  background-color: #fafafa;
+  background-color: var(--white);
+  color: var(--grey);
+}
+.toyTrain h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+}
+#green {
+  color: var(--green);
+}
+.toyTrain p {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.toyTrainRow {
+  height: 230px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toyTrainRow h1 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 50px;
+  color: var(--grey);
+}
+.toyTrainCol {
+  height: 230px;
+  width: 230px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 700;
+}
+#redBgWhiteCol {
+  background-color: var(--red);
+  color: white;
+}
+#greenBgWhiteCol {
+  background-color: var(--green);
+  color: white;
+}
+#greyBgWhiteCol {
+  background-color: var(--grey);
+  color: white;
 }
