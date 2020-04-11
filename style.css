@@ -190,3 +190,11 @@ p {
   background-color: var(--grey);
   color: white;
 }
+.howItWorks {
+  height: 2465px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
