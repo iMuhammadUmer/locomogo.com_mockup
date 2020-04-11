@@ -232,6 +232,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--white);
 }
 .testimonialsRow {
   height: 165px;
@@ -265,4 +266,8 @@ p {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+.companies {
+  height: 345px;
+  width: 100$;
 }
