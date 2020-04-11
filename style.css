@@ -19,6 +19,7 @@ header {
   justify-content: center;
   align-items: center;
   position: fixed;
+  background-color: white;
 }
 header .content {
   width: 95%;
@@ -122,6 +123,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.col .content {
+  height: 150px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .row img {
   height: 400px;
@@ -192,9 +201,28 @@ p {
 }
 .howItWorks {
   height: 2465px;
-  width: 100px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   flex-direction: column;
+}
+.howItWorks h1 {
+  font-size: 64px;
+  line-height: 77px;
+  font-weight: 700;
+  color: var(--grey);
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.trainInfo {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--blue);
+}
+#trainImg{
+  max-width: 100%;
 }
