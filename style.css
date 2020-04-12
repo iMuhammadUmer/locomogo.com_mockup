@@ -11,6 +11,8 @@
   --blue: #395ebc;
   --white: #fafafa;
   --goToPageHover: #e2e6ea;
+  --purple: #0056b3;
+  --lightBlue: #007bff;
 }
 header {
   height: 86px;
@@ -387,7 +389,57 @@ footer {
   height: 293px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+}
+footer .content {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerCol {
+  width: 600px;
+  height: 148px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footerCol h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--grey);
+}
+footer p {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--grey);
+}
+#mail {
+  text-decoration: none;
+  color: var(--grey);
+}
+#mail:hover {
+  text-decoration: underline;
+}
+footer a {
+  color: var(--lightBlue);
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--purple);
+  text-decoration: underline;
+}
+.copyright {
+  width: 255px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
 }
