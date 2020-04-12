@@ -270,4 +270,25 @@ p {
 .companies {
   height: 345px;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.companies h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: var(--grey);
+}
+.companies .companiesRow {
+  width: 80%;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.companiesRow img {
+  width: 238px;
+  height: 80px;
 }
