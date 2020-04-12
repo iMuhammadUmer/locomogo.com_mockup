@@ -52,7 +52,7 @@ main {
   align-items: center;
   background-image: url(images/blocks-min.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  padding-top: 6em;
 }
 main .content {
   height: 470px;
@@ -90,7 +90,7 @@ main a {
   text-decoration: none;
   color: white;
 }
-#btnPreOrder {
+#btnPreOrderMain {
   width: 200px;
   height: 38px;
 }
