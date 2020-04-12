@@ -10,6 +10,7 @@
   --green: #3abf73;
   --blue: #395ebc;
   --white: #fafafa;
+  --goToPageHover: #e2e6ea;
 }
 header {
   height: 86px;
@@ -302,4 +303,33 @@ p {
 .journey p {
   width: 85%;
   text-align: center;
+}
+.indiegogo {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.indiegogo h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: var(--grey);
+}
+.indiegogo img {
+  width: 527px;
+  height: 80px;
+  margin-top: 1em;
+}
+#btnGoToPage {
+  width: 106px;
+  height: 38px;
+  background-color: transparent;
+  color: var(--grey);
+  transition: 0.15s ease-in-out;
+}
+#btnGoToPage:hover {
+  background-color: var(--goToPageHover);
 }
